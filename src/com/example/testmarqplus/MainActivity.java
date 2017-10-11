@@ -28,7 +28,7 @@ import android.widget.Button;
 					MainActivity.this.startActivity(intent);	
 				}else{
 					Intent intent = new Intent(); 					
-					intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.marq.plus"));
+					intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://sj.qq.com/myapp/detail.htm?apkName=com.arplanets.marq.plus.cnapp"));
 					MainActivity.this.startActivity(intent);	
 				}								
 			}
