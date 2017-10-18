@@ -22,7 +22,7 @@ import android.widget.Button;
 			@Override
 			public void onClick(View view){
 
-				if(isAppInstalled("com.marq.plus")==true){
+				if(isAppInstalled("com.arplanets.marq.plus.cnapp")==true){
 					Intent intent = new Intent(); 					
 					intent = new Intent(Intent.ACTION_VIEW, Uri.parse("marqplus://com.marq.plus/"));
 					MainActivity.this.startActivity(intent);	
